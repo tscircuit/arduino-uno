@@ -8,6 +8,7 @@ export default () => (
 		width="68.6mm"
 		height="53.4mm"
 		layers={4}
+		routingDisabled
 		// autorouterVersion="v3"
 		outline={unoOutline as any}
 		borderRadius="2mm"
