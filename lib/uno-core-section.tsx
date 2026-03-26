@@ -3,7 +3,7 @@ import { X322516MLB4SI } from "../imports/X322516MLB4SI";
 import { atmegaPinLabels } from "./uno-geometry";
 
 export const UnoCoreSection = () => (
-	<group name="core_section" pcbX="29.1mm" pcbY="-9.9mm">
+	<group name="core_section">
 		<ATMEGA328P_AU
 			name="U1"
 			pinLabels={atmegaPinLabels as any}
@@ -185,7 +185,7 @@ export const UnoCoreSection = () => (
 			name="R2"
 			resistance="1k"
 			footprint="0402"
-			pcbX="-6mm"
+			pcbX="-12mm"
 			pcbY="-5mm"
 			schX={-14}
 			schY={-1}
@@ -198,7 +198,7 @@ export const UnoCoreSection = () => (
 			name="LED_PWR"
 			color="green"
 			footprint="0603"
-			pcbX="-3mm"
+			pcbX="-9mm"
 			pcbY="-5mm"
 			schX={-10}
 			schY={-1}
@@ -212,7 +212,7 @@ export const UnoCoreSection = () => (
 			name="R3"
 			resistance="1k"
 			footprint="0402"
-			pcbX="20mm"
+			pcbX="19mm"
 			pcbY="-3mm"
 			schX={10}
 			schY={4}
@@ -225,7 +225,7 @@ export const UnoCoreSection = () => (
 			name="LED_L"
 			color="amber"
 			footprint="0603"
-			pcbX="24mm"
+			pcbX="23mm"
 			pcbY="-3mm"
 			schX={14}
 			schY={4}
