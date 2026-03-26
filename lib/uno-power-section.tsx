@@ -86,7 +86,6 @@ export const UnoPowerSection = () => (
 
 		<capacitor
 			name="C7"
-			doNotPlace
 			capacitance="100nF"
 			footprint="0402"
 			pcbX="-18mm"
@@ -100,7 +99,6 @@ export const UnoPowerSection = () => (
 		/>
 		<capacitor
 			name="C8"
-			doNotPlace
 			capacitance="10uF"
 			footprint="0805"
 			pcbX="-31mm"
@@ -114,7 +112,6 @@ export const UnoPowerSection = () => (
 		/>
 		<capacitor
 			name="C9"
-			doNotPlace
 			capacitance="10uF"
 			footprint="0805"
 			pcbX="-24mm"
@@ -128,7 +125,6 @@ export const UnoPowerSection = () => (
 		/>
 		<capacitor
 			name="C10"
-			doNotPlace
 			capacitance="10uF"
 			footprint="0805"
 			pcbX="-12mm"
@@ -142,7 +138,6 @@ export const UnoPowerSection = () => (
 		/>
 		<capacitor
 			name="C11"
-			doNotPlace
 			capacitance="10uF"
 			footprint="0805"
 			pcbX="-6mm"
