@@ -5,29 +5,29 @@ import { FDN340P } from "../imports/FDN340P";
 import { LMV358IDR } from "../imports/LMV358IDR";
 import { LP2985_33DBVR } from "../imports/LP2985_33DBVR";
 import { M7_SMA_ } from "../imports/M7_SMA_";
+import { DC_050_B250 } from "../imports/DC_050_B250";
 import { MF_MSMF050_2 } from "../imports/MF_MSMF050_2";
 import { NCP1117ST50T3G } from "../imports/NCP1117ST50T3G";
-import { PJ_102AH } from "../imports/PJ_102AH";
 import { SKRPACE010 } from "../imports/SKRPACE010";
-import { USB_B02 } from "../imports/USB_B02";
+import { A_61729_1011BLF } from "../imports/A_61729_1011BLF";
 import { X322516MLB4SI } from "../imports/X322516MLB4SI";
 
 export const UnoPowerSection = () => (
 	<group name="power_section" pcbX="0mm" pcbY="0mm">
-		<USB_B02
+		<A_61729_1011BLF
 			name="USB1"
-			pcbX="-28.2mm"
-			pcbY="10.5mm"
+			pcbX="-27.75mm"
+			pcbY="10mm"
 			pcbRotation={270}
 			schX={-30}
 			schY={12}
 			connections={{
-				VBUS: "net.USB_VBUS_RAW",
+				VCC: "net.USB_VBUS_RAW",
 				D_NEG: "net.USB_CONN_D_NEG",
 				D_POS: "net.USB_CONN_D_POS",
-				GND1: "net.GND",
-				GND2: "net.GND",
-				GND3: "net.GND",
+				GND: "net.GND",
+				SHIELD1: "net.GND",
+				SHIELD2: "net.GND",
 			}}
 		/>
 		<MF_MSMF050_2
@@ -175,7 +175,7 @@ export const UnoPowerSection = () => (
 			capacitance="22pF"
 			footprint="0402"
 			pcbX="-16mm"
-			pcbY="2.5mm"
+			pcbY="0mm"
 			schX={-11}
 			schY={18}
 			connections={{
@@ -339,7 +339,7 @@ export const UnoPowerSection = () => (
 			}}
 		/>
 
-		<PJ_102AH
+		<DC_050_B250
 			name="J_DC"
 			pcbX="-27mm"
 			pcbY="-8mm"
@@ -347,8 +347,11 @@ export const UnoPowerSection = () => (
 			schX={-30}
 			schY={-16}
 			connections={{
-				VIN_IN: "net.DC_IN",
-				GND: "net.GND",
+				// Per the vendor circuit diagram: pin1/pin4 are the shell contact,
+				// pin3 is the center pin, and pin2 is the switched contact.
+				pin1: "net.GND",
+				pin4: "net.GND",
+				pin3: "net.DC_IN",
 			}}
 		/>
 		<M7_SMA_
