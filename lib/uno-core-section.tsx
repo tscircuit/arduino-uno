@@ -3,7 +3,7 @@ import { X322516MLB4SI } from "../imports/X322516MLB4SI";
 import { atmegaPinLabels } from "./uno-geometry";
 
 export const UnoCoreSection = () => (
-	<group name="core_section">
+	<group name="core_section" pcbX="0mm" pcbY="0mm">
 		<ATMEGA328P_AU
 			name="U1"
 			pinLabels={atmegaPinLabels as any}

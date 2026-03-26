@@ -1,5 +1,5 @@
 export const UnoHeaders = () => (
-	<group name="headers_section">
+	<group name="headers_section" pcbX="0mm" pcbY="0mm">
 		<pinheader
 			name="J_PWR"
 			doNotPlace

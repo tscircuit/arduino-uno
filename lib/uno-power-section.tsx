@@ -13,7 +13,7 @@ import { USB_B02 } from "../imports/USB_B02";
 import { X322516MLB4SI } from "../imports/X322516MLB4SI";
 
 export const UnoPowerSection = () => (
-	<group name="power_section">
+	<group name="power_section" pcbX="0mm" pcbY="0mm">
 		<USB_B02
 			name="USB1"
 			pcbX="-28.2mm"
