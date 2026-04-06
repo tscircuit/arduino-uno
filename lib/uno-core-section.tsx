@@ -118,8 +118,8 @@ export const UnoCoreSection = () => (
 			name="R1"
 			resistance="10k"
 			footprint="0402"
-			pcbX="-1mm"
-			pcbY="8mm"
+			pcbX="5mm"
+			pcbY="8.5mm"
 			schX={-5}
 			schY={4}
 			connections={{
@@ -131,8 +131,8 @@ export const UnoCoreSection = () => (
 			name="C3"
 			capacitance="100nF"
 			footprint="0402"
-			pcbX="-6mm"
-			pcbY="8mm"
+			pcbX="5mm"
+			pcbY="10.5mm"
 			schX={-12}
 			schY={4}
 			connections={{
@@ -145,8 +145,8 @@ export const UnoCoreSection = () => (
 			name="C4"
 			capacitance="100nF"
 			footprint="0402"
-			pcbX="2mm"
-			pcbY="13mm"
+			pcbX="14mm"
+			pcbY="8.5mm"
 			schX={-5}
 			schY={-5}
 			connections={{
@@ -185,8 +185,8 @@ export const UnoCoreSection = () => (
 			name="R2"
 			resistance="1k"
 			footprint="0402"
-			pcbX="-12mm"
-			pcbY="-5mm"
+			pcbX="-10.9mm"
+			pcbY="-7.2mm"
 			schX={-14}
 			schY={-1}
 			connections={{
@@ -198,7 +198,7 @@ export const UnoCoreSection = () => (
 			name="LED_PWR"
 			color="green"
 			footprint="0603"
-			pcbX="-9mm"
+			pcbX="-8mm"
 			pcbY="-5mm"
 			schX={-10}
 			schY={-1}

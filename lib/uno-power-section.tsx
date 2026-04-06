@@ -32,7 +32,7 @@ export const UnoPowerSection = () => (
 		/>
 		<MF_MSMF050_2
 			name="F1"
-			pcbX="-17mm"
+			pcbX="-18.5mm"
 			pcbY="4mm"
 			pcbRotation={0}
 			schX={-24}
@@ -81,8 +81,8 @@ export const UnoPowerSection = () => (
 			name="R5"
 			resistance="22"
 			footprint="0402"
-			pcbX="-11mm"
-			pcbY="13.5mm"
+			pcbX="-12.5mm"
+			pcbY="14.53mm"
 			schX={-14}
 			schY={10}
 			connections={{
@@ -130,7 +130,7 @@ export const UnoPowerSection = () => (
 					pin33: ["EP"],
 				} as any
 			}
-			pcbX="-12mm"
+			pcbX="-10.5mm"
 			pcbY="10.5mm"
 			schX={-6}
 			schY={11}
@@ -200,8 +200,8 @@ export const UnoPowerSection = () => (
 			name="C9"
 			capacitance="1uF"
 			footprint="0603"
-			pcbX="-2mm"
-			pcbY="14mm"
+			pcbX="-4.5mm"
+			pcbY="13.5mm"
 			schX={3}
 			schY={14}
 			connections={{
@@ -225,7 +225,7 @@ export const UnoPowerSection = () => (
 		<BLM21PG221SN1D
 			name="FB1"
 			pcbX="-8.5mm"
-			pcbY="15.5mm"
+			pcbY="17mm"
 			pcbRotation={90}
 			schX={6}
 			schY={12}
@@ -239,7 +239,7 @@ export const UnoPowerSection = () => (
 			capacitance="100nF"
 			footprint="0402"
 			pcbX="-5mm"
-			pcbY="15.5mm"
+			pcbY="16.5mm"
 			schX={10}
 			schY={12}
 			connections={{
@@ -356,8 +356,8 @@ export const UnoPowerSection = () => (
 		/>
 		<M7_SMA_
 			name="D1"
-			pcbX="-15.5mm"
-			pcbY="-8mm"
+			pcbX="-15.95mm"
+			pcbY="-4.5mm"
 			schX={-22}
 			schY={-16}
 			connections={{
@@ -367,8 +367,8 @@ export const UnoPowerSection = () => (
 		/>
 		<NCP1117ST50T3G
 			name="U3"
-			pcbX="-25mm"
-			pcbY="-17mm"
+			pcbX="-24.5mm"
+			pcbY="-20.5mm"
 			pcbRotation={180}
 			schX={-14}
 			schY={-23}
@@ -384,7 +384,7 @@ export const UnoPowerSection = () => (
 			capacitance="47uF"
 			footprint="1206"
 			pcbX="-32mm"
-			pcbY="-18mm"
+			pcbY="-20.5mm"
 			schX={-24}
 			schY={-23}
 			connections={{
@@ -396,8 +396,8 @@ export const UnoPowerSection = () => (
 			name="C13"
 			capacitance="47uF"
 			footprint="1206"
-			pcbX="-18mm"
-			pcbY="-18mm"
+			pcbX="-16.5mm"
+			pcbY="-20.5mm"
 			schX={-6}
 			schY={-23}
 			connections={{
@@ -438,7 +438,7 @@ export const UnoPowerSection = () => (
 			capacitance="1uF"
 			footprint="0603"
 			pcbX="-14mm"
-			pcbY="-18mm"
+			pcbY="-17mm"
 			schX={2}
 			schY={-23}
 			connections={{
@@ -450,8 +450,8 @@ export const UnoPowerSection = () => (
 			name="C16"
 			capacitance="10nF"
 			footprint="0402"
-			pcbX="-14mm"
-			pcbY="-13mm"
+			pcbX="-15.5mm"
+			pcbY="-14.5mm"
 			schX={8}
 			schY={-18}
 			connections={{
@@ -479,8 +479,8 @@ export const UnoPowerSection = () => (
 		/>
 		<FDN340P
 			name="Q1"
-			pcbX="-12mm"
-			pcbY="-10mm"
+			pcbX="-15.7mm"
+			pcbY="-8.5mm"
 			pcbRotation={180}
 			schX={10}
 			schY={-10}
@@ -520,7 +520,7 @@ export const UnoPowerSection = () => (
 			name="R13"
 			resistance="100k"
 			footprint="0402"
-			pcbX="-6mm"
+			pcbX="-4.5mm"
 			pcbY="-10mm"
 			schX={24}
 			schY={-8}
@@ -533,7 +533,7 @@ export const UnoPowerSection = () => (
 			name="C17"
 			capacitance="100nF"
 			footprint="0402"
-			pcbX="4mm"
+			pcbX="8.5mm"
 			pcbY="-15mm"
 			schX={28}
 			schY={-16}

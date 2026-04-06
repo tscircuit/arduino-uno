@@ -5,11 +5,12 @@ import { UnoPowerSection } from "./lib/uno-power-section";
 
 export default () => (
 	<board
+		schematicDisabled
 		width="68.6mm"
 		height="53.4mm"
 		layers={4}
-		routingDisabled
-		// autorouterVersion="v3"
+		// routingDisabled
+		autorouterVersion="v5"
 		outline={unoOutline as any}
 		borderRadius="2mm"
 		solderMaskColor="blue"
