@@ -343,7 +343,7 @@ export const UnoPowerSection = () => (
 			name="J_DC"
 			pcbX="-27mm"
 			pcbY="-8mm"
-			pcbRotation={90}
+			pcbRotation={0}
 			schX={-30}
 			schY={-16}
 			connections={{

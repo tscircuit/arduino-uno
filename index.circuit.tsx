@@ -10,7 +10,6 @@ export default () => (
 		height="53.4mm"
 		layers={4}
 		// routingDisabled
-		autorouterVersion="v5"
 		outline={unoOutline as any}
 		borderRadius="2mm"
 		solderMaskColor="blue"
